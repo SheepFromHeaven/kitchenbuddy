@@ -1,0 +1,14 @@
+{
+  "name": "kitchenbuddy",
+  "version": "1.0.0",
+  "description": "A runner which uses puppeteer to extract the recipe data from chefkoch.de, as there is no public API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Marc Emmanuel",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^1.19.0"
+  }
+}
